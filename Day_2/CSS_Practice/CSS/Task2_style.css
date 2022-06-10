@@ -13,15 +13,15 @@ body {
 
 .img_details {
     text-align: justify;
-    height: 300px;
-    width: 100%;
     border-radius: 5px 5px 0px 0px;
+    padding: 20px;
 }
 
-.img_details {
-    padding: 20px;
+#img .img .img_details h1 {
+    text-shadow: 2px -2px 5px #ff00ff;
 }
 
 .img_data img {
     width: 100%;
+    height: 300px;
 }
