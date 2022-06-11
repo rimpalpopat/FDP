@@ -1,0 +1,39 @@
+p {
+    width: 300px;
+    height: auto;
+    min-height: 300px;
+    background-color: aqua;
+    /* position: absolute; */
+}
+
+.main {
+    position: fixed;
+    height: 30px;
+    width: 30px;
+    border-radius: 100px;
+    bottom: 5px;
+    right: 5px;
+    min-height: 0px !important;
+}
+
+.p4 {
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+    height: 5px;
+    padding: 10px;
+    width: auto;
+    border-radius: 50px;
+    background-color: bisque;
+}
+
+div {
+    height: 200px;
+    width: 200px;
+    position: relative;
+    background-color: darkkhaki;
+}
+
+.p2 {
+    background-color: cornflowerblue;
+}
