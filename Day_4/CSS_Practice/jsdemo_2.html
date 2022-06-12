@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>My First Java Script Demo</title>
+    <link rel="stylesheet" type="text/css">
+    <script type="text/javascript">
+        document.write("Hello World..");
+        document.writeln("<h1>Hello its java script Demo</h1>");
+        console.log("this is log print")
+
+
+
+        function Printname() {
+            var name = prompt("Enter the Name");
+            document.getElementById("Printname").innerHTML = "<h1>Welcome " + name + "</h1>";
+        }
+
+        function bgcolor() {
+            var color = prompt("Enter your Favorite Color");
+            document.body.style.backgroundColor = color;
+        }
+
+        var name = document.getElementById("btnname");
+        btnname.addEventListner('click', Printname());
+    </script>
+</head>
+
+<body>
+    <button id="btnname" onclick="Printname()">Enter Name</button>
+    <span id="Printname"></span>
+
+    <button onclick="bgcolor()">BGColor</button>
+    <span id="bgcolor"></span>
+</body>
+
+</html>

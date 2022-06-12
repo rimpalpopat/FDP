@@ -1,0 +1,17 @@
+@font-face {
+    font-family: myfirstfont;
+    src: url(../Font/Gloritta.ttf);
+}
+
+@font-face {
+    font-family: mynewone;
+    src: url(../Font/RACING\ HARD.ttf);
+}
+
+h1 {
+    font-family: myfirstfont;
+}
+
+p {
+    font-family: mynewone;
+}
